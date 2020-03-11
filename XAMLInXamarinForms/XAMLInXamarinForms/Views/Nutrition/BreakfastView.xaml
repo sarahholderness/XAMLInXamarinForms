@@ -3,8 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewmodels="clr-namespace:XAMLInXamarinForms.ViewModels"
              mc:Ignorable="d"
-             x:Class="XAMLInXamarinForms.Views.Nutrition.BreakfastView">
+             x:Class="XAMLInXamarinForms.Views.Nutrition.BreakfastView"
+             Title="Breakfast">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style TargetType="Label">
@@ -18,8 +20,7 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout BindingContext="{viewmodels:NutritionViewModel}">
-            <Label Text="Nutrition" FontSize="Header" BackgroundColor="LightBlue" />
-            <Label Text="Breakfast" FontSize="Medium" BackgroundColor="LightCyan" />
+            <Label Text="Breakfast" FontSize="Medium" BackgroundColor="LightBlue" />
             <Label Text="Cereal" />
         </StackLayout>
     </ContentPage.Content>

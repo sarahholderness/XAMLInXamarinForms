@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace XAMLInXamarinForms.Views.Nutrition
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class NutritionView : ContentPage
+    public partial class NutritionView : TabbedPage
     {
         public NutritionView()
         {
