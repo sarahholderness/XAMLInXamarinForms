@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XAMLInXamarinForms.Views.Routine
+namespace XAMLInXamarinForms.Views.Nutrition
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Fitness : ContentPage
+    public partial class DinnerView : ContentPage
     {
-        public Fitness()
+        public DinnerView()
         {
             InitializeComponent();
         }
