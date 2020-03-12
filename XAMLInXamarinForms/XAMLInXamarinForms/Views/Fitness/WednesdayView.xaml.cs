@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace XAMLInXamarinForms.Views.Fitness
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FitnessView : CarouselPage
+    public partial class WednesdayView : ContentPage
     {
-        public FitnessView()
+        public WednesdayView()
         {
             InitializeComponent();
         }
