@@ -9,9 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAMLInXamarinForms.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAMLInXamarinForms.iOS", "XAMLInXamarinForms\XAMLInXamarinForms.iOS\XAMLInXamarinForms.iOS.csproj", "{6C16C303-4E8A-4D8F-BBED-298273504578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAMLInXamarinForms", "XAMLInXamarinForms\XAMLInXamarinForms\XAMLInXamarinForms.csproj", "{9E29407B-9EB2-4738-82AF-CEE24E51BB3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAMLInXamarinForms", "XAMLInXamarinForms\XAMLInXamarinForms\XAMLInXamarinForms.csproj", "{9E29407B-9EB2-4738-82AF-CEE24E51BB3C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XAMLInXamarinForms.Tests", "XAMLInXamarinForms\XAMLInXamarinForms.Tests\XAMLInXamarinForms.Tests.csproj", "{148D5BBF-34CC-48F1-A05C-3EA904DDB4F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ABBC2E2B-6585-41DD-99F5-5E30DF5D5E15}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
