@@ -50,6 +50,20 @@ __Note:__ This isn't the only way to accomplish implementation. However, this is
     - [ ] After the `nutritionviews:BreakfastView` tag, add a new self closing tag with the type `nutritionviews:LunchView`.
     - [ ] After the `nutritionviews:LunchView` tag, add a new self closing tag with the type `nutritionviews:DinnerView`.
     - [ ] After the `nutritionviews:DinnerView` tag, add a new self closing tag with the type `nutritionviews:SnackView`.
+- [ ] Creat a new `CourselPage` in the `Views/Fitness` folder with the name `FitnessView`.
+  - [ ] When you create the `CourselPage` in Visual Studio (or similiar)the following code should be generated for you, if not you'll need to add it yourself.
+  - [ ] - The first line should be the `xml` tag `<?xml version="1.0" encoding="utf-8" ?>`.
+      - The second line should be an openning `CourselPage` tag with the following attributes:
+        - `xmlns="http://xamarin.com/schemas/2014/forms"`
+        - `xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"`
+        - `xmlns:d="http://xamarin.com/schemas/2014/forms/design"`
+        - `xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"`
+        - `xmlns:nutritionviews="clr-namespace:XAMLInXamarinForms.Views.Fitness"`
+        - `mc:Ignorable="d"`
+        - `x:Class="XAMLInXamarinForms.Views.Fitness.FitnessView"`
+      - The last line should be the closing `CourselPage` tag.
+      - Between the `CourselPage` tags, add opening and closing `CourselPage.Title` tags containing the value `Fitness`.
+      - 
       
 ## What Now?
 
